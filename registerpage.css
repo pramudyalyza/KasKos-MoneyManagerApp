@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500,700,600,800|Inter:500,400,700,600|DM+Sans:500|Roboto:600");
+
+:root {
+    --font-family-montserrat: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family-montserrat);
+    font-size: 14px;
+    background-color: #ffffff;
+}
+
+.abstract{
+    height: 45vw;
+    width: 40vw;
+    margin-left: 760px;
+}
+
+.arrow{
+    position: relative;
+    height: 25px;
+    width: 25px;
+    top: -41vw;
+    right: -6vw;
+    transform: scale(2);
+}
+
+.arrow:hover{
+    cursor: pointer;
+}
+
+.registerText{
+    position: relative;
+    font-family: var(--font-family-montserrat);
+    font-size: 23px;
+    font-weight: 600;
+    top: -45.2vw;
+    right: -20vw;
+}
+
+.arrow {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    top: -41.5vw;
+}
+
+.register-text {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.right-container {
+    position: relative;
+    width: 50%;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    top: -580px;
+    left: 60px;
+}
+
+.create-account {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: -3px;
+}
+
+.account-description {
+    margin-bottom: 30px;
+    color: #888888;
+    padding-bottom: -10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-group input:focus {
+    border-color: #ea872d;
+    outline: none;
+}
+
+.password-input {
+    position: relative;
+}
+
+.password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 118px;
+    top: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.password-toggle img {
+    height: 16px;
+    width: 16px;
+}
+
+button {
+    display: block;
+    width: 84%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    text-align: center;
+}
+
+button::placeholder {
+    text-align: center;
+    text-indent: 0;
+}
+
+.terms {
+    margin-top: 20px;
+    color: #888888;
+    margin-left: 45px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 10px 100px;
+}
+
+.divider-line {
+    height: 1px;
+    background-color: #ddd;
+    width: 20%;
+    margin: 0;
+}
+
+.divider-text {
+    margin: 0 15px;
+    color: #888888;
+    font-size: 14px;
+}
+
+.social-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -106px;
+}
+
+.social-login img {
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+
+.error-message {
+    display: none;
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.valid {
+    border: 1px solid #ddd;
+}
